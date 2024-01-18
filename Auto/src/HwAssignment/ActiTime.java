@@ -33,13 +33,15 @@ public class ActiTime {
 		driver.findElement(By.xpath("//textarea[@name='description']")).sendKeys("am is best");
 		driver.findElement(By.xpath("//input[@id='add_project_action']")).click();
 		driver.findElement(By.xpath("//input[@name='createCustomerSubmit']")).click();
-		driver.findElement(By.xpath("//input[@name='name']")).sendKeys("aak");
-		driver.findElement(By.xpath("//textarea[@name='description']")).sendKeys("successfully executed");
-		driver.findElement(By.xpath("//input[@value='add_new_tasks']")).click();
-		driver.findElement(By.xpath("//input[@type='submit']")).submit();
-		//Thread.sleep(2000);
-		driver.findElement(By.xpath("//input[@name='task[0].name']")).sendKeys("done");
-		driver.findElement(By.xpath("//img[@class='x-form-trigger x-form-date-trigger ']")).click();
 		
-		driver.findElement(By.xpath("//input[@value='Create Tasks']")).click();
+		
+//		driver.findElement(By.xpath("//input[@name='name']")).sendKeys("aak");
+//		driver.findElement(By.xpath("//textarea[@name='description']")).sendKeys("successfully executed");
+//		driver.findElement(By.xpath("//input[@value='add_new_tasks']")).click();
+//		driver.findElement(By.xpath("//input[@type='submit']")).submit();
+//		//Thread.sleep(2000);
+//		driver.findElement(By.xpath("//input[@name='task[0].name']")).sendKeys("done");
+//		driver.findElement(By.xpath("//img[@class='x-form-trigger x-form-date-trigger ']")).click();
+//		
+//		driver.findElement(By.xpath("//input[@value='Create Tasks']")).click();
 	}}
